@@ -210,6 +210,10 @@ ol {
   line-height: 22px;
 }
 
+.search-form__textfield:focus {
+  outline: none;
+}
+
 .search-form__checkbox-list {
   display: inline-block;
 }
@@ -225,10 +229,6 @@ ol {
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #ffffff;
-}
-
-.search-form__label:focus {
-  outline: none;
 }
 
 .search-form__label:hover .search-form__label-text {
